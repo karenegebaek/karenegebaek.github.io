@@ -1,30 +1,125 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
 	<style>
-		@media (max-width: 799px) {
-		  body {
-		    background-image: url("karpe_small.jpeg");
-		    background-repeat: no-repeat;
-  			background-attachment: fixed;
-  			background-size: cover;
-		  }
+
+		body {
+			font-family: 'Rajdhani', sans-serif;
 		}
+
+		#main-heading {
+			font-family: 'Gloria Hallelujah', cursive;
+		}
+
+		@media (max-width: 799px) {
+			body {
+				background-image: url("karpe_small.jpeg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+
+			div.transbox  {
+				width: 100%;
+			}
+
+			#main-heading {
+				text-align: center; 
+			}
+
+			div.space {
+				padding-bottom: 150px;
+			}
+		}
+
 		@media (min-width: 800px) {
-		  body {
-		    background-image: url("karpe.jpg");
-		    background-repeat: no-repeat;
-  			background-attachment: fixed;
-  			background-size: cover;
-		  }
+			body {
+				background-image: url("karpe.jpg");
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-size: cover;
+			}
+
+			div.transbox  {
+				width: 50%;
+			}
+
+			#main-heading {
+				margin-left: 50px;
+			}
+		}
+
+		div.transbox {
+			margin: 50px;
+			background-color: #ccc6c6;
+			border: 1px solid black;
+			opacity: 0.8;
+		}
+
+		a:link {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: black;
+			background-color: transparent;
+			text-decoration: none;
+		}
+		li {
+					margin-bottom: 5px;
 		}
 	</style>
 </head>
-<body>
 
-	<h2>Vi glæder os til brylluppet!</h2>
-	<h2>Ønskeseddel kommer her senest d. 14. marts. </h2>
+<body>
+	<br>
+	<h1 id="main-heading" style="font-size: xxx-large;">Vores ønsker</h1>
+	<div class="space"></div>
+	<div class="transbox">
+		<p style = "margin-left: 20px; line-height: 1.5; font-size: large;">Kære gæst, <br><br>
+
+		Vi glæder os til at fejre vores store dag sammen med dig! <br>
+		Her er en ønskeseddel - flere ønsker tilføjes muligvis løbende &#x263A</p>
+		<ul style = "margin-left: 20px; font-size: large;">
+			<li>Oplevelser - gerne sammen med jer</li>
+			<li>Penge til bryllupsrejse</li>
+			<li>Røremaskine</li>
+			<li>Foodprocessor</li>
+			<li><a href="https://klubvin.dk/shop/14-glas---spiegelau/713-spiegelau-rom-snifter---pakke-med-2-glas/"
+					target="_blank"><u>Spiegelau
+						romglas</u></a></li>
+			<li><a href="https://www.imerco.dk/wmf-palermo-bestiksaet-60-dele?id=100395445" target="_blank"><u>WMF
+						Palermo bestiksæt</u></a></li>
+			<li><a href="https://www.kopk.dk/products/bitz-kusintha-vandflaske-1-2-l-bla" target="_blank"><u>Bitz Kusintha vandflaske 1,2 l i blå </u></a></li>
+			<li><a href="https://jysk.dk/sovevaerelse/puder/specialpuder/plus/pude-wellpur-lyngen-48x58x15" target="_blank"><u>2 Wellpur Lyngen hovedpuder fra Jysk </u></a></li>
+			<li>2 helårsdyner med gåsedun</li>
+			<li>En af disse lamper
+				<ul>
+					<li><a href="https://www.ellos.dk/globen-lighting/loftlampe-bowl/1523266" target="_blank"><u>Globen Lighting Bowl</u></a></li>
+					<li><a href="https://www.dubuy.dk/house-doctor-lampe-opal-hvid-d-30-cm-h35-cm.html" target="_blank"><u>Hose Doctor Opal</u></a></li>
+					<li><a href="https://www.greenline.dk/belysning-lamper/indendorslamper/pendler/cafe-pendel-messing-opal" target="_blank"><u>Nordlux Café Pendel</u></a> (diameter 350 mm)</li>
+				</ul>
+			</li>
+			<li>Slagboremaskine</li>
+			<li>Skraldeskruetrækker til bits, <a href="https://www.silvan.dk/bahco-skraldeskruetraekker-135-230-mm?id=2640-9629656" target="_blank"><u>f.eks. denne</u></a></li>
+		</ul>
+		<p style = "margin-left: 20px; line-height: 1.5; font-size: large;">Kærlig hilsen, <br>
+
+			Karen & Rasmus</p>
+	</div>
+
 
 </body>
+
 </html>
